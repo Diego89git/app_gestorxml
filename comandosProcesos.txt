@@ -16,6 +16,13 @@ Comandos para correr el proyecto
     ng serve
     ng serve --o --host 0.0.0.0   /* abre en cualquier dispositivo conectado a la misma red local*/
 
+2.- Creacion del proyecto en laravle para APIs
+https://laravel.com/docs/10.x/installation
+
+composer create-project laravel/laravel example-app
+composer create-project laravel/laravel api_gestorxml
+cd example-app 
+php artisan serve
 
     
 
