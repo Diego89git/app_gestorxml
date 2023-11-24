@@ -1,0 +1,21 @@
+En el siguiente proyecto se utilizara angular 16 y laravel 10 para desarrollar una aplicacion que permite descargar y leer xml que genera el SRI
+
+1.- Creacion del proyecto en angular
+https://angular.io/guide/setup-local
+En caso de no tener instalado: npm install -g @angular/cli
+
+ng new app_gestorxml    /*creacion del proyecto*/
+Routing: y
+CSS
+
+cd app_gestorxml        /* ir hacia la carpeta del proyecto*/
+
+Comandos para correr el proyecto
+    ng serve --open
+    ng serve --o
+    ng serve
+    ng serve --o --host 0.0.0.0   /* abre en cualquier dispositivo conectado a la misma red local*/
+
+
+    
+
