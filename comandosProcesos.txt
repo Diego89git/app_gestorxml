@@ -24,5 +24,14 @@ composer create-project laravel/laravel api_gestorxml
 cd example-app 
 php artisan serve
 
-    
+3.- Seguridad sanctum laravel 10
+php artisan make:controller AuthController      Crea el controlador
+php artisan migrate                             Crea la base de datos y las tablas configuradas en migrations
+
+NOTA: Al usar middleware para proteccion de APIs, se requiere en los headers colocar acept: applicattion/json
+APIs:
+        http://localhost:8000/api/auth/register POST
+        http://localhost:8000/api/auth/logIN    POST
+        http://localhost:8000/api/auth/logout   GET
+
 
