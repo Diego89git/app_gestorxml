@@ -34,4 +34,7 @@ APIs:
         http://localhost:8000/api/auth/logIN    POST
         http://localhost:8000/api/auth/logout   GET
 
+4 Login angular
+ng g m core --routing
+ng g c core/acces/login --export
 
