@@ -38,3 +38,8 @@ APIs:
 ng g m core --routing
 ng g c core/acces/login --export
 
+5.- Instalar y Probar Free Package iconos libres
+https://fontawesome.com/docs/web/setup/packages
+npm install --save @fortawesome/fontawesome-free
+
+
