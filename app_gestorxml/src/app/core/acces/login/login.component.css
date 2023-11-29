@@ -24,9 +24,10 @@
     width: 40%;
     display: flex;
     align-items: center;
-    text-align: center;
-    background-color: #2f4f4f;
-    color: white;
+    text-align: center;   
+    background-image: var(--packImagenGradiente);
+    background-color:var(--packColor_back_1);
+    color:var(--packColor_color_1);
     border-top-left-radius: 20px;
     padding: 0;
 }
@@ -67,7 +68,8 @@
     justify-content: center;
     width: 60%;
     text-align: center;
-    background-color: white;
+    background-color:var(--packColor_back_2);
+    color:var(--packColor_color_2);
     border-bottom-right-radius: 20px;
 }
 .form-info-detalle{
@@ -89,30 +91,35 @@
     margin-bottom: 15px;
     border-radius: 20px;
     padding: 0 10px;
-    background-color: aliceblue;
+    background-color:var(--packColor_back_3);    
+    color:var(--packColor_color_3);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .form label input{
     width: 100%;
     padding: 10px;
-    background-color: aliceblue;
+    background-color:var(--packColor_back_3);
+    color:var(--packColor_color_3);
     border: none;
     outline: none;
     border-radius: 20px;
-    color: gray;
+    
 }
 .form input[type="submit"]{
-    background-color: gray;
-    color:white;
+    background-color:var(--packColor_back_1);
+    color:var(--packColor_color_1);
     border-radius: 20px;
     padding: 10px 15px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border:none;
+    width: 98%;
 
 }
 .form input[type="submit"]:hover{
     background-color: rgb(148, 146, 146);
+    color: white;
 }
 .hide{
     position: absolute;
@@ -135,11 +142,22 @@
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
+    .form-info-detalle{
+        padding: 0 10px;
+    }
     .form-info{
         width:calc(100% - 40px);
         padding: 20px;
         border-bottom-left-radius: 20px;
         border-top-right-radius: 0;
+    }
+    
+    .form label input{
+        padding: 20px;
+        font-size:18px ;
+    }
+    .form input[type="submit"]{
+        padding: 15px;
     }
 }
 @media screen and (max-width:800px){
